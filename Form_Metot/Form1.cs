@@ -11,11 +11,11 @@ namespace Form_Metot
         }
         Islem islem = new Islem();
         private void button1_Click(object sender, EventArgs e)
-        {            
+        {
             int s1 = Convert.ToInt32(textBox1.Text);
             int s2 = Convert.ToInt32(textBox2.Text);
             int s3 = islem.Topla(s1, s2);
-            label2.Text = s3.ToString();            
+            label2.Text = s3.ToString();
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -38,7 +38,7 @@ namespace Form_Metot
         {
             int s1 = Convert.ToInt32(textBox1.Text);
             int s2 = Convert.ToInt32(textBox2.Text);
-            int s3 = islem.Carp(s1,s2);
+            int s3 = islem.Carp(s1, s2);
             label2.Text = s3.ToString();
         }
     }
